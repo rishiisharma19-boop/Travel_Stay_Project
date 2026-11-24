@@ -1,0 +1,385 @@
+city,state,mapping_status,property_count
+srinagar,Jammu & Kashmir,ambiguous_city_state_required,98
+cochin,Kerala,unmatched_city,83
+jaisalmer,Rajasthan,unmatched_city,73
+alleppey,Kerala,unmatched_city,68
+calangute,Goa,unmatched_city,48
+baga,Goa,unmatched_city,35
+dharamshala,Himachal Pradesh,unmatched_city,34
+pushkar,Rajasthan,unmatched_city,34
+palolem,Goa,unmatched_city,33
+ooty,Tamil Nadu,unmatched_city,32
+lonavala,Maharashtra,unmatched_city,30
+munnar,Kerala,unmatched_city,30
+haridwār,Uttarakhand,unmatched_city,28
+bhubaneshwar,Orissa,unmatched_city,28
+candolim,Goa,unmatched_city,28
+thekkady,Kerala,unmatched_city,27
+kodaikānāl,Tamil Nadu,unmatched_city,25
+kumarakom,Kerala,unmatched_city,24
+anjuna,Goa,unmatched_city,23
+dalhousie,Himachal Pradesh,unmatched_city,22
+katra,Jammu & Kashmir,unmatched_city,22
+kolhapur,Maharashtra,unmatched_city,21
+mandrem,Goa,unmatched_city,18
+darjeeling,West Bengal,unmatched_city,18
+ghaziabad,Uttar Pradesh,unmatched_city,16
+salt lake city,West Bengal,unmatched_city,16
+trivandrum,Kerala,unmatched_city,16
+khajurāho,Madhya Pradesh,unmatched_city,16
+mcleod ganj,Himachal Pradesh,unmatched_city,16
+vagator,Goa,unmatched_city,15
+kasauli,Himachal Pradesh,unmatched_city,15
+gangtok,Sikkim,unmatched_city,14
+mararikulam,Kerala,unmatched_city,14
+ahmadnagar,Maharashtra,unmatched_city,14
+varca,Goa,unmatched_city,13
+greater noida,Uttar Pradesh,unmatched_city,13
+tapovan,Uttarakhand,unmatched_city,13
+morjim,Goa,unmatched_city,13
+daman,Gujarat,unmatched_city,12
+mahābaleshwar,Maharashtra,unmatched_city,12
+kumbakonam,Tamil Nadu,unmatched_city,12
+bhīm tāl,Uttarakhand,unmatched_city,12
+indirapuram,Delhi NCR,unmatched_city,11
+lavasa,Maharashtra,unmatched_city,11
+navi mumbai,Maharashtra,unmatched_city,11
+kalpatta,Kerala,unmatched_city,11
+ganpatipule,Maharashtra,unmatched_city,11
+vythiri,Kerala,unmatched_city,11
+virajpet,Karnataka,unmatched_city,11
+somnāth,Gujarat,unmatched_city,10
+benaulim,Goa,unmatched_city,10
+bodh gaya,Bihar,unmatched_city,10
+ballygunge,West Bengal,unmatched_city,10
+yercaud,Tamil Nadu,unmatched_city,10
+shogi,Himachal Pradesh,unmatched_city,9
+canacona,Goa,unmatched_city,9
+ghansoli,Maharashtra,unmatched_city,9
+hampi,Karnataka,unmatched_city,9
+panchgani,Maharashtra,unmatched_city,9
+kanyakumari,Tamil Nadu,unmatched_city,9
+cherai beach,,unmatched_city,9
+arpora,Goa,unmatched_city,9
+leh,Jammu & Kashmir,unmatched_city,9
+munroe island,Kerala,unmatched_city,9
+kovalam,Kerala,unmatched_city,8
+kumbhalgarh,Rajasthan,unmatched_city,8
+pachmarhī,Madhya Pradesh,unmatched_city,8
+agonda,Goa,unmatched_city,8
+vandiperiyār,Kerala,unmatched_city,8
+bordi,Maharashtra,unmatched_city,8
+dagshai,Himachal Pradesh,unmatched_city,8
+sasan gir,Gujarat,unmatched_city,8
+siolim,Goa,unmatched_city,8
+ranjangaon ganpati,Maharashtra,unmatched_city,7
+payyannūr,Kerala,unmatched_city,7
+kankhal,Uttarakhand,unmatched_city,7
+bara bazar,West Bengal,unmatched_city,7
+masinagudi,Karnataka,unmatched_city,7
+yelagiri,Tamil Nadu,unmatched_city,7
+bambolim,Goa,unmatched_city,7
+tambaram,Tamil Nadu,unmatched_city,7
+tiruchchirāppalli,Tamil Nadu,unmatched_city,7
+devanhalli,Karnataka,unmatched_city,7
+trichūr,Kerala,unmatched_city,7
+pimpri,Maharashtra,unmatched_city,6
+rājpur,Uttarakhand,unmatched_city,6
+ramakkalmedu,,unmatched_city,6
+palni,Tamil Nadu,unmatched_city,6
+nagchala,Himachal Pradesh,unmatched_city,6
+murud,Maharashtra,unmatched_city,6
+Ālīpur,West Bengal,unmatched_city,6
+pātipukur,West Bengal,unmatched_city,6
+jhālāmand,Rajasthan,unmatched_city,6
+mahabalipuram,Tamil Nadu,unmatched_city,6
+betalbatim,Goa,unmatched_city,6
+bālighāi,Orissa,unmatched_city,5
+gulmarg,Jammu & Kashmir,unmatched_city,5
+arambol,Goa,unmatched_city,5
+angamali,Kerala,unmatched_city,5
+mangalore,Karnataka,unmatched_city,5
+alto porvorim,Goa,unmatched_city,5
+mājra,Uttarakhand,unmatched_city,5
+māranhalli,Karnataka,unmatched_city,5
+kaniyāmbetta,Kerala,unmatched_city,5
+kandāghāt,Himachal Pradesh,unmatched_city,5
+meppādi,Kerala,unmatched_city,5
+sām,Rajasthan,unmatched_city,5
+himatnagar,Gujarat,unmatched_city,5
+guruvāyūr,Kerala,unmatched_city,5
+gokarna,Karnataka,unmatched_city,5
+narendranagar,Uttarakhand,unmatched_city,5
+nīleshwar,Kerala,unmatched_city,5
+bādshāhpur,Haryana,unmatched_city,5
+dharmsāla,Himachal Pradesh,unmatched_city,5
+dhānd,Rajasthan,unmatched_city,5
+bayappanhalli,Karnataka,unmatched_city,5
+carmona,Goa,unmatched_city,5
+begūr,Karnataka,unmatched_city,5
+behāla,West Bengal,unmatched_city,5
+sarkhej,Gujarat,unmatched_city,5
+secunderābād,Telangana,unmatched_city,5
+salcete,Goa,unmatched_city,5
+manipala,Karnataka,unmatched_city,4
+maraiyūr,Kerala,unmatched_city,4
+mandarmoni,West Bengal,unmatched_city,4
+auroville,Tamil Nadu,unmatched_city,4
+vāsco da gāma,Goa,unmatched_city,4
+almora,Uttarakhand,unmatched_city,4
+dahej,Gujarat,unmatched_city,4
+sika,Gujarat,unmatched_city,4
+belūr,Karnataka,unmatched_city,4
+belparāo,Uttarakhand,unmatched_city,4
+srīrangam,Tamil Nadu,unmatched_city,4
+shānti niketan,West Bengal,unmatched_city,4
+sultan bathery,Kerala,unmatched_city,4
+chūru,Rajasthan,unmatched_city,4
+cavelossim,Goa,unmatched_city,4
+dwārka,Gujarat,unmatched_city,4
+pūrnānkuppam,Tamil Nadu,unmatched_city,4
+rānīkhet,Uttarakhand,unmatched_city,4
+faizābād,Uttar Pradesh,unmatched_city,4
+dam dam,West Bengal,unmatched_city,4
+belgaum,Karnataka,unmatched_city,4
+collem,Karnataka,unmatched_city,4
+hassan,Karnataka,unmatched_city,4
+gūduvāncheri,Tamil Nadu,unmatched_city,4
+kapūrwāhāl,Maharashtra,unmatched_city,4
+kausani,Uttarakhand,unmatched_city,4
+kas,Maharashtra,unmatched_city,4
+hasanganj,Uttar Pradesh,unmatched_city,4
+hosūr,Tamil Nadu,unmatched_city,4
+gwāldam,Uttarakhand,unmatched_city,4
+karsiyang,West Bengal,unmatched_city,4
+jānla,Orissa,unmatched_city,4
+mātherān,Maharashtra,unmatched_city,4
+unchagao,Maharashtra,unmatched_city,4
+kushālnagar,Karnataka,unmatched_city,4
+mananthavady,Kerala,unmatched_city,4
+chhāpar,Rajasthan,unmatched_city,4
+chandoli,Maharashtra,unmatched_city,4
+yelahanka,Karnataka,unmatched_city,4
+dhantoli,Maharashtra,unmatched_city,3
+dhāmpur,Uttar Pradesh,unmatched_city,3
+eramalloor,Kerala,unmatched_city,3
+punnappira,Kerala,unmatched_city,3
+pūvār,Kerala,unmatched_city,3
+dive,Maharashtra,unmatched_city,3
+perumbalam,Kerala,unmatched_city,3
+shirwal,Maharashtra,unmatched_city,3
+chegāt,Kerala,unmatched_city,3
+churi jodhān,Rajasthan,unmatched_city,3
+chinnakanal,Kerala,unmatched_city,3
+chandrapur,Maharashtra,unmatched_city,3
+būndi,Rajasthan,unmatched_city,3
+rinchingpong,Sikkim,unmatched_city,3
+bārkūr,Karnataka,unmatched_city,3
+coonoor,Tamil Nadu,unmatched_city,3
+colva,Goa,unmatched_city,3
+bhatkal,,unmatched_city,3
+bhilai,Chhattisgarh,unmatched_city,3
+beāwar,Rajasthan,unmatched_city,3
+bori,Maharashtra,unmatched_city,3
+bolpur,West Bengal,unmatched_city,3
+tangra,West Bengal,unmatched_city,3
+siddapur,Karnataka,unmatched_city,3
+subrahmanya,Karnataka,unmatched_city,3
+tiruvallam,Kerala,unmatched_city,3
+somvārpet,Karnataka,unmatched_city,3
+buin,Uttarakhand,unmatched_city,3
+bijni,Uttarakhand,unmatched_city,3
+chikmagalūr,Karnataka,unmatched_city,3
+narela,Haryana,unmatched_city,3
+kakkanad,Kerala,unmatched_city,3
+kargil,Jammu & Kashmir,unmatched_city,3
+kanatal,Uttarakhand,unmatched_city,3
+kammasandra,Karnataka,unmatched_city,3
+nagarbazar,West Bengal,unmatched_city,3
+kaza,Himachal Pradesh,unmatched_city,3
+kelambākkam,Tamil Nadu,unmatched_city,3
+kapkot,Uttarakhand,unmatched_city,3
+neemrana,Haryana,unmatched_city,3
+mīnjūr,Tamil Nadu,unmatched_city,3
+harsola,Madhya Pradesh,unmatched_city,3
+dentam,Sikkim,unmatched_city,3
+paithalmala,Kerala,unmatched_city,3
+panchagani,Maharashtra,unmatched_city,3
+oragadam,Tamil Nadu,unmatched_city,3
+madgaon,Goa,unmatched_city,3
+verem,Goa,unmatched_city,3
+kolāra,Maharashtra,unmatched_city,3
+liluāh,West Bengal,unmatched_city,3
+mahirāvani,Maharashtra,unmatched_city,3
+vayalār,Kerala,unmatched_city,3
+vandanmedu,Kerala,unmatched_city,3
+vaduvanchal,Kerala,unmatched_city,3
+turambhe,Maharashtra,unmatched_city,3
+attibele,Karnataka,unmatched_city,3
+bajaura,Himachal Pradesh,unmatched_city,3
+attigundi,Karnataka,unmatched_city,3
+avathi,Karnataka,unmatched_city,3
+ambalavayal,Kerala,unmatched_city,3
+abdullāpuram,Tamil Nadu,unmatched_city,3
+ahār,Rajasthan,unmatched_city,3
+alibaug,Maharashtra,unmatched_city,3
+adūr,Kerala,unmatched_city,2
+aguada,Goa,unmatched_city,2
+tāla,Madhya Pradesh,unmatched_city,2
+vallam,Tamil Nadu,unmatched_city,2
+udaipura,Madhya Pradesh,unmatched_city,2
+vadakkāncheri,Kerala,unmatched_city,2
+barddhamān,West Bengal,unmatched_city,2
+villianur,Tamil Nadu,unmatched_city,2
+khari rohar,Gujarat,unmatched_city,2
+kharadi,Maharashtra,unmatched_city,2
+khilchīpur,Rajasthan,unmatched_city,2
+khawāsa,,unmatched_city,2
+khimsar,Rajasthan,unmatched_city,2
+vettutura,Kerala,unmatched_city,2
+wellington,Tamil Nadu,unmatched_city,2
+nārkanda,Himachal Pradesh,unmatched_city,2
+kalyani,West Bengal,unmatched_city,2
+kattappana,Kerala,unmatched_city,2
+manimala,Kerala,unmatched_city,2
+mashobra,Himachal Pradesh,unmatched_city,2
+kakkabe,Karnataka,unmatched_city,2
+marwad,,unmatched_city,2
+manganam,Kerala,unmatched_city,2
+lansdowne,Uttarakhand,unmatched_city,2
+kālkāji devi,Delhi NCR,unmatched_city,2
+kīar,Himachal Pradesh,unmatched_city,2
+kālapettai,Tamil Nadu,unmatched_city,2
+kurandi,Karnataka,unmatched_city,2
+krishnarājāsāgara,Karnataka,unmatched_city,2
+kulan,Jammu & Kashmir,unmatched_city,2
+kottakamboor,Kerala,unmatched_city,2
+kotagiri,Tamil Nadu,unmatched_city,2
+chikalthān,Maharashtra,unmatched_city,2
+chākan,Maharashtra,unmatched_city,2
+chottanikara,Kerala,unmatched_city,2
+chitradurga,Karnataka,unmatched_city,2
+behror,Rajasthan,unmatched_city,2
+basāri,Madhya Pradesh,unmatched_city,2
+bashist,Himachal Pradesh,unmatched_city,2
+bareilly,Uttar Pradesh,unmatched_city,2
+bhiwadi,Haryana,unmatched_city,2
+tekkumuri,Kerala,unmatched_city,2
+tirupporūr,Tamil Nadu,unmatched_city,2
+thaska mīrānji,Punjab,unmatched_city,2
+sriperumbudur,Tamil Nadu,unmatched_city,2
+srīvardhan,Maharashtra,unmatched_city,2
+bulandshahr,Uttar Pradesh,unmatched_city,2
+bhīmāshankar,Maharashtra,unmatched_city,2
+sītāpur mūāfi,Uttar Pradesh,unmatched_city,2
+pahalgām,Jammu & Kashmir,unmatched_city,2
+paravūr,Kerala,unmatched_city,2
+gonikoppal,Karnataka,unmatched_city,2
+gopālpur,Orissa,unmatched_city,2
+hoshangābād,Madhya Pradesh,unmatched_city,2
+hubli,Karnataka,unmatched_city,2
+hospet,Karnataka,unmatched_city,2
+muttupet,Tamil Nadu,unmatched_city,2
+ketti,Tamil Nadu,unmatched_city,2
+nāldera,Himachal Pradesh,unmatched_city,2
+nedumbassery,Kerala,unmatched_city,2
+dewās,Madhya Pradesh,unmatched_city,2
+deskit,Jammu & Kashmir,unmatched_city,2
+dapoli,Maharashtra,unmatched_city,2
+hundar,Jammu & Kashmir,unmatched_city,2
+shimoga,Karnataka,unmatched_city,2
+patnem,Goa,unmatched_city,2
+rhenok,Sikkim,unmatched_city,2
+shertallai,Kerala,unmatched_city,2
+sangolda,Goa,unmatched_city,2
+shamshi,Himachal Pradesh,unmatched_city,2
+rāmeswaram,Tamil Nadu,unmatched_city,2
+rāma,Rajasthan,unmatched_city,2
+diamond harbour,West Bengal,unmatched_city,2
+rudrapur,West Bengal,ambiguous_city_state_required,2
+dhāruhera,Haryana,unmatched_city,2
+kharsia,Chhattisgarh,unmatched_city,1
+ambalapulai,Kerala,unmatched_city,1
+bardez,Goa,unmatched_city,1
+tājganj,Uttar Pradesh,unmatched_city,1
+uttarkāshi,Uttarakhand,unmatched_city,1
+ajanta,Maharashtra,unmatched_city,1
+wynchpet,Andhra Pradesh,unmatched_city,1
+Ābu road,Rajasthan,unmatched_city,1
+valudāvūr,Tamil Nadu,unmatched_city,1
+velānganni,Tamil Nadu,unmatched_city,1
+velcao,Goa,unmatched_city,1
+vandalūr,Tamil Nadu,unmatched_city,1
+wayanad,Kerala,unmatched_city,1
+bapane,Maharashtra,unmatched_city,1
+banār,Rajasthan,unmatched_city,1
+baddi,,unmatched_city,1
+badami,Karnataka,unmatched_city,1
+loutolim,Goa,unmatched_city,1
+lokpāl,Uttarakhand,unmatched_city,1
+kollūru,Karnataka,unmatched_city,1
+kotamangalam,Kerala,unmatched_city,1
+haripūr,Himachal Pradesh,unmatched_city,1
+haddo,Andaman and Nicobar,unmatched_city,1
+haidar sāhibgūda,Telangana,unmatched_city,1
+hanumāngarh,Rajasthan,unmatched_city,1
+guhāgar,Maharashtra,unmatched_city,1
+parra,Goa,unmatched_city,1
+parādīp garh,Orissa,unmatched_city,1
+gorakhpur,Uttar Pradesh,unmatched_city,1
+khairla,Rajasthan,unmatched_city,1
+kasol,Himachal Pradesh,unmatched_city,1
+kambam,Tamil Nadu,unmatched_city,1
+muthanga,Kerala,unmatched_city,1
+naya bāzār,Sikkim,unmatched_city,1
+nandi,Karnataka,unmatched_city,1
+neil island,Andaman and Nicobar,unmatched_city,1
+nubra,Jammu & Kashmir,unmatched_city,1
+kallār,Kerala,unmatched_city,1
+kanchipuram,Tamil Nadu,unmatched_city,1
+lamaj,Maharashtra,unmatched_city,1
+kūmudi,Kerala,unmatched_city,1
+kānha,Madhya Pradesh,unmatched_city,1
+majorda,Goa,unmatched_city,1
+malaut,Punjab,unmatched_city,1
+lukerganj,Uttar Pradesh,unmatched_city,1
+manesar,Haryana,unmatched_city,1
+lānja,Maharashtra,unmatched_city,1
+mubārikpur,Punjab,unmatched_city,1
+mohwa kalan,Rajasthan,unmatched_city,1
+mundra,Gujarat,unmatched_city,1
+jādabpur,West Bengal,unmatched_city,1
+jālna,Maharashtra,unmatched_city,1
+kalamboli,Maharashtra,unmatched_city,1
+rāiwāla,Uttarakhand,unmatched_city,1
+rāzole,Andhra Pradesh,unmatched_city,1
+ravangla,Sikkim,unmatched_city,1
+dāvangere,Karnataka,unmatched_city,1
+gangāpur,Maharashtra,unmatched_city,1
+gangānagar,Rajasthan,unmatched_city,1
+pīpalkoti,Uttarakhand,unmatched_city,1
+jahāngir,Punjab,unmatched_city,1
+delwāra,Rajasthan,unmatched_city,1
+dedha,Rajasthan,unmatched_city,1
+daulatābād,Maharashtra,unmatched_city,1
+dharamshala,Haryana,unmatched_city,1
+digha,West Bengal,unmatched_city,1
+diva,Maharashtra,unmatched_city,1
+durgjan,Jammu & Kashmir,unmatched_city,1
+durgāpur,Maharashtra,unmatched_city,1
+jawālāpur,Uttarakhand,unmatched_city,1
+bhīmadolu,Andhra Pradesh,unmatched_city,1
+curca,Goa,unmatched_city,1
+bhurtuk,Sikkim,unmatched_city,1
+chinchwad,Maharashtra,unmatched_city,1
+chamba,Uttarakhand,unmatched_city,1
+bīr,Rajasthan,unmatched_city,1
+chopdem,Goa,unmatched_city,1
+suntikoppa,Karnataka,unmatched_city,1
+sinquerim,Goa,unmatched_city,1
+binsar,Uttarakhand,unmatched_city,1
+bāghdogra,West Bengal,unmatched_city,1
+tapukrah,Haryana,unmatched_city,1
+takdāh,West Bengal,unmatched_city,1
+tiruchengodu,Tamil Nadu,unmatched_city,1
+tughlakābād,Delhi NCR,unmatched_city,1

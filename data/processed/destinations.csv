@@ -1,0 +1,1222 @@
+destination_id,city,state,country
+1,Mumbai,Maharashtra,India
+2,Delhi,Delhi,India
+3,Bengaluru,Karnataka,India
+4,Ahmedabad,Gujarat,India
+5,Hyderabad,Telangana,India
+6,Chennai,Tamil Nadu,India
+7,Kolkata,West Bengal,India
+8,Pune,Maharashtra,India
+9,Jaipur,Rajasthan,India
+10,Surat,Gujarat,India
+11,Lucknow,Uttar Pradesh,India
+12,Kanpur,Uttar Pradesh,India
+13,Nagpur,Maharashtra,India
+14,Patna,Bihar,India
+15,Indore,Madhya Pradesh,India
+16,Thane,Maharashtra,India
+17,Bhopal,Madhya Pradesh,India
+18,Visakhapatnam,Andhra Pradesh,India
+19,Vadodara,Gujarat,India
+20,Firozabad,Uttar Pradesh,India
+21,Ludhiana,Punjab,India
+22,Rajkot,Gujarat,India
+23,Agra,Uttar Pradesh,India
+24,Siliguri,West Bengal,India
+25,Nashik,Maharashtra,India
+26,Faridabad,Haryana,India
+27,Patiala,Punjab,India
+28,Meerut,Uttar Pradesh,India
+29,Kalyan-Dombivali,Maharashtra,India
+30,Vasai-Virar,Maharashtra,India
+31,Varanasi,Uttar Pradesh,India
+32,Srinagar,Jammu and Kashmir,India
+33,Dhanbad,Jharkhand,India
+34,Jodhpur,Rajasthan,India
+35,Amritsar,Punjab,India
+36,Raipur,Chhattisgarh,India
+37,Allahabad,Uttar Pradesh,India
+38,Coimbatore,Tamil Nadu,India
+39,Jabalpur,Madhya Pradesh,India
+40,Gwalior,Madhya Pradesh,India
+41,Vijayawada,Andhra Pradesh,India
+42,Madurai,Tamil Nadu,India
+43,Guwahati,Assam,India
+44,Chandigarh,Chandigarh,India
+45,Hubli-Dharwad,Karnataka,India
+46,Amroha,Uttar Pradesh,India
+47,Moradabad,Uttar Pradesh,India
+48,Gurgaon,Haryana,India
+49,Aligarh,Uttar Pradesh,India
+50,Solapur,Maharashtra,India
+51,Ranchi,Jharkhand,India
+52,Jalandhar,Punjab,India
+53,Tiruchirappalli,Tamil Nadu,India
+54,Bhubaneswar,Odisha,India
+55,Salem,Tamil Nadu,India
+56,Warangal,Telangana,India
+57,Mira-Bhayandar,Maharashtra,India
+58,Thiruvananthapuram,Kerala,India
+59,Bhiwandi,Maharashtra,India
+60,Saharanpur,Uttar Pradesh,India
+61,Guntur,Andhra Pradesh,India
+62,Amravati,Maharashtra,India
+63,Bikaner,Rajasthan,India
+64,Noida,Uttar Pradesh,India
+65,Jamshedpur,Jharkhand,India
+66,Bhilai Nagar,Chhattisgarh,India
+67,Cuttack,Odisha,India
+68,Kochi,Kerala,India
+69,Udaipur,Rajasthan,India
+70,Bhavnagar,Gujarat,India
+71,Dehradun,Uttarakhand,India
+72,Asansol,West Bengal,India
+73,Nanded-Waghala,Maharashtra,India
+74,Ajmer,Rajasthan,India
+75,Jamnagar,Gujarat,India
+76,Ujjain,Madhya Pradesh,India
+77,Sangli,Maharashtra,India
+78,Loni,Uttar Pradesh,India
+79,Jhansi,Uttar Pradesh,India
+80,Pondicherry,Puducherry,India
+81,Nellore,Andhra Pradesh,India
+82,Jammu,Jammu and Kashmir,India
+83,Belagavi,Karnataka,India
+84,Raurkela,Odisha,India
+85,Mangaluru,Karnataka,India
+86,Tirunelveli,Tamil Nadu,India
+87,Malegaon,Maharashtra,India
+88,Gaya,Bihar,India
+89,Tiruppur,Tamil Nadu,India
+90,Davanagere,Karnataka,India
+91,Kozhikode,Kerala,India
+92,Akola,Maharashtra,India
+93,Kurnool,Andhra Pradesh,India
+94,Bokaro Steel City,Jharkhand,India
+95,Rajahmundry,Andhra Pradesh,India
+96,Ballari,Karnataka,India
+97,Agartala,Tripura,India
+98,Bhagalpur,Bihar,India
+99,Latur,Maharashtra,India
+100,Dhule,Maharashtra,India
+101,Korba,Chhattisgarh,India
+102,Bhilwara,Rajasthan,India
+103,Brahmapur,Odisha,India
+104,Mysore,Karnataka,India
+105,Muzaffarpur,Bihar,India
+106,Ahmednagar,Maharashtra,India
+107,Kollam,Kerala,India
+108,Raghunathganj,West Bengal,India
+109,Bilaspur,Chhattisgarh,India
+110,Shahjahanpur,Uttar Pradesh,India
+111,Thrissur,Kerala,India
+112,Alwar,Rajasthan,India
+113,Kakinada,Andhra Pradesh,India
+114,Nizamabad,Telangana,India
+115,Sagar,Madhya Pradesh,India
+116,Tumkur,Karnataka,India
+117,Hisar,Haryana,India
+118,Rohtak,Haryana,India
+119,Panipat,Haryana,India
+120,Darbhanga,Bihar,India
+121,Kharagpur,West Bengal,India
+122,Aizawl,Mizoram,India
+123,Ichalkaranji,Maharashtra,India
+124,Tirupati,Andhra Pradesh,India
+125,Karnal,Haryana,India
+126,Bathinda,Punjab,India
+127,Rampur,Uttar Pradesh,India
+128,Shivamogga,Karnataka,India
+129,Ratlam,Madhya Pradesh,India
+130,Modinagar,Uttar Pradesh,India
+131,Durg,Chhattisgarh,India
+132,Shillong,Meghalaya,India
+133,Imphal,Manipur,India
+134,Hapur,Uttar Pradesh,India
+135,Ranipet,Tamil Nadu,India
+136,Anantapur,Andhra Pradesh,India
+137,Arrah,Bihar,India
+138,Karimnagar,Telangana,India
+139,Parbhani,Maharashtra,India
+140,Etawah,Uttar Pradesh,India
+141,Bharatpur,Rajasthan,India
+142,Begusarai,Bihar,India
+143,New Delhi,Delhi,India
+144,Chhapra,Bihar,India
+145,Kadapa,Andhra Pradesh,India
+146,Ramagundam,Telangana,India
+147,Pali,Rajasthan,India
+148,Satna,Madhya Pradesh,India
+149,Vizianagaram,Andhra Pradesh,India
+150,Katihar,Bihar,India
+151,Hardwar,Uttarakhand,India
+152,Sonipat,Haryana,India
+153,Nagercoil,Tamil Nadu,India
+154,Thanjavur,Tamil Nadu,India
+155,Murwara (Katni),Madhya Pradesh,India
+156,Naihati,West Bengal,India
+157,Sambhal,Uttar Pradesh,India
+158,Nadiad,Gujarat,India
+159,Yamunanagar,Haryana,India
+160,English Bazar,West Bengal,India
+161,Eluru,Andhra Pradesh,India
+162,Munger,Bihar,India
+163,Panchkula,Haryana,India
+164,Raayachuru,Karnataka,India
+165,Panvel,Maharashtra,India
+166,Deoghar,Jharkhand,India
+167,Ongole,Andhra Pradesh,India
+168,Nandyal,Andhra Pradesh,India
+169,Morena,Madhya Pradesh,India
+170,Bhiwani,Haryana,India
+171,Porbandar,Gujarat,India
+172,Palakkad,Kerala,India
+173,Anand,Gujarat,India
+174,Purnia,Bihar,India
+175,Baharampur,West Bengal,India
+176,Barmer,Rajasthan,India
+177,Morvi,Gujarat,India
+178,Orai,Uttar Pradesh,India
+179,Bahraich,Uttar Pradesh,India
+180,Sikar,Rajasthan,India
+181,Vellore,Tamil Nadu,India
+182,Singrauli,Madhya Pradesh,India
+183,Khammam,Telangana,India
+184,Mahesana,Gujarat,India
+185,Silchar,Assam,India
+186,Sambalpur,Odisha,India
+187,Rewa,Madhya Pradesh,India
+188,Unnao,Uttar Pradesh,India
+189,Hugli-Chinsurah,West Bengal,India
+190,Raiganj,West Bengal,India
+191,Phusro,Jharkhand,India
+192,Adityapur,Jharkhand,India
+193,Alappuzha,Kerala,India
+194,Bahadurgarh,Haryana,India
+195,Machilipatnam,Andhra Pradesh,India
+196,Rae Bareli,Uttar Pradesh,India
+197,Jalpaiguri,West Bengal,India
+198,Bharuch,Gujarat,India
+199,Pathankot,Punjab,India
+200,Hoshiarpur,Punjab,India
+201,Baramula,Jammu and Kashmir,India
+202,Adoni,Andhra Pradesh,India
+203,Jind,Haryana,India
+204,Tonk,Rajasthan,India
+205,Tenali,Andhra Pradesh,India
+206,Kancheepuram,Tamil Nadu,India
+207,Vapi,Gujarat,India
+208,Sirsa,Haryana,India
+209,Navsari,Gujarat,India
+210,Mahbubnagar,Telangana,India
+211,Puri,Odisha,India
+212,Robertson Pet,Karnataka,India
+213,Erode,Tamil Nadu,India
+214,Batala,Punjab,India
+215,Haldwani-cum-Kathgodam,Uttarakhand,India
+216,Vidisha,Madhya Pradesh,India
+217,Saharsa,Bihar,India
+218,Thanesar,Haryana,India
+219,Chittoor,Andhra Pradesh,India
+220,Veraval,Gujarat,India
+221,Lakhimpur,Uttar Pradesh,India
+222,Sitapur,Uttar Pradesh,India
+223,Hindupur,Andhra Pradesh,India
+224,Santipur,West Bengal,India
+225,Balurghat,West Bengal,India
+226,Ganjbasoda,Madhya Pradesh,India
+227,Moga,Punjab,India
+228,Proddatur,Andhra Pradesh,India
+229,Srinagar,Uttarakhand,India
+230,Medinipur,West Bengal,India
+231,Habra,West Bengal,India
+232,Sasaram,Bihar,India
+233,Hajipur,Bihar,India
+234,Bhuj,Gujarat,India
+235,Shivpuri,Madhya Pradesh,India
+236,Ranaghat,West Bengal,India
+237,Shimla,Himachal Pradesh,India
+238,Tiruvannamalai,Tamil Nadu,India
+239,Kaithal,Haryana,India
+240,Rajnandgaon,Chhattisgarh,India
+241,Godhra,Gujarat,India
+242,Hazaribag,Jharkhand,India
+243,Bhimavaram,Andhra Pradesh,India
+244,Mandsaur,Madhya Pradesh,India
+245,Dibrugarh,Assam,India
+246,Kolar,Karnataka,India
+247,Bankura,West Bengal,India
+248,Mandya,Karnataka,India
+249,Dehri-on-Sone,Bihar,India
+250,Madanapalle,Andhra Pradesh,India
+251,Malerkotla,Punjab,India
+252,Lalitpur,Uttar Pradesh,India
+253,Bettiah,Bihar,India
+254,Pollachi,Tamil Nadu,India
+255,Khanna,Punjab,India
+256,Neemuch,Madhya Pradesh,India
+257,Palwal,Haryana,India
+258,Palanpur,Gujarat,India
+259,Guntakal,Andhra Pradesh,India
+260,Nabadwip,West Bengal,India
+261,Udupi,Karnataka,India
+262,Jagdalpur,Chhattisgarh,India
+263,Motihari,Bihar,India
+264,Pilibhit,Uttar Pradesh,India
+265,Dimapur,Nagaland,India
+266,Mohali,Punjab,India
+267,Sadulpur,Rajasthan,India
+268,Rajapalayam,Tamil Nadu,India
+269,Dharmavaram,Andhra Pradesh,India
+270,Kashipur,Uttarakhand,India
+271,Sivakasi,Tamil Nadu,India
+272,Darjiling,West Bengal,India
+273,Chikkamagaluru,Karnataka,India
+274,Gudivada,Andhra Pradesh,India
+275,Baleshwar Town,Odisha,India
+276,Mancherial,Telangana,India
+277,Srikakulam,Andhra Pradesh,India
+278,Adilabad,Telangana,India
+279,Yavatmal,Maharashtra,India
+280,Barnala,Punjab,India
+281,Nagaon,Assam,India
+282,Narasaraopet,Andhra Pradesh,India
+283,Raigarh,Chhattisgarh,India
+284,Roorkee,Uttarakhand,India
+285,Valsad,Gujarat,India
+286,Ambikapur,Chhattisgarh,India
+287,Giridih,Jharkhand,India
+288,Chandausi,Uttar Pradesh,India
+289,Purulia,West Bengal,India
+290,Patan,Gujarat,India
+291,Bagaha,Bihar,India
+292,Hardoi ,Uttar Pradesh,India
+293,Achalpur,Maharashtra,India
+294,Osmanabad,Maharashtra,India
+295,Deesa,Gujarat,India
+296,Nandurbar,Maharashtra,India
+297,Azamgarh,Uttar Pradesh,India
+298,Ramgarh,Jharkhand,India
+299,Firozpur,Punjab,India
+300,Baripada Town,Odisha,India
+301,Karwar,Karnataka,India
+302,Siwan,Bihar,India
+303,Rajampet,Andhra Pradesh,India
+304,Pudukkottai,Tamil Nadu,India
+305,Anantnag,Jammu and Kashmir,India
+306,Tadpatri,Andhra Pradesh,India
+307,Satara,Maharashtra,India
+308,Bhadrak,Odisha,India
+309,Kishanganj,Bihar,India
+310,Suryapet,Telangana,India
+311,Wardha,Maharashtra,India
+312,Ranebennuru,Karnataka,India
+313,Amreli,Gujarat,India
+314,Neyveli (TS),Tamil Nadu,India
+315,Jamalpur,Bihar,India
+316,Marmagao,Goa,India
+317,Udgir,Maharashtra,India
+318,Tadepalligudem,Andhra Pradesh,India
+319,Nagapattinam,Tamil Nadu,India
+320,Buxar,Bihar,India
+321,Aurangabad,Maharashtra,India
+322,Jehanabad,Bihar,India
+323,Phagwara,Punjab,India
+324,Khair,Uttar Pradesh,India
+325,Sawai Madhopur,Rajasthan,India
+326,Kapurthala,Punjab,India
+327,Chilakaluripet,Andhra Pradesh,India
+328,Aurangabad,Bihar,India
+329,Malappuram,Kerala,India
+330,Rewari,Haryana,India
+331,Nagaur,Rajasthan,India
+332,Sultanpur,Uttar Pradesh,India
+333,Nagda,Madhya Pradesh,India
+334,Port Blair,Andaman and Nicobar Islands,India
+335,Lakhisarai,Bihar,India
+336,Panaji,Goa,India
+337,Tinsukia,Assam,India
+338,Itarsi,Madhya Pradesh,India
+339,Kohima,Nagaland,India
+340,Balangir,Odisha,India
+341,Nawada,Bihar,India
+342,Jharsuguda,Odisha,India
+343,Jagtial,Telangana,India
+344,Viluppuram,Tamil Nadu,India
+345,Amalner,Maharashtra,India
+346,Zirakpur,Punjab,India
+347,Tanda,Uttar Pradesh,India
+348,Tiruchengode,Tamil Nadu,India
+349,Nagina,Uttar Pradesh,India
+350,Yemmiganur,Andhra Pradesh,India
+351,Vaniyambadi,Tamil Nadu,India
+352,Sarni,Madhya Pradesh,India
+353,Theni Allinagaram,Tamil Nadu,India
+354,Margao,Goa,India
+355,Akot,Maharashtra,India
+356,Sehore,Madhya Pradesh,India
+357,Mhow Cantonment,Madhya Pradesh,India
+358,Kot Kapura,Punjab,India
+359,Makrana,Rajasthan,India
+360,Pandharpur,Maharashtra,India
+361,Miryalaguda,Telangana,India
+362,Shamli,Uttar Pradesh,India
+363,Seoni,Madhya Pradesh,India
+364,Ranibennur,Karnataka,India
+365,Kadiri,Andhra Pradesh,India
+366,Shrirampur,Maharashtra,India
+367,Rudrapur,Uttarakhand,India
+368,Parli,Maharashtra,India
+369,Najibabad,Uttar Pradesh,India
+370,Nirmal,Telangana,India
+371,Udhagamandalam,Tamil Nadu,India
+372,Shikohabad,Uttar Pradesh,India
+373,Jhumri Tilaiya,Jharkhand,India
+374,Aruppukkottai,Tamil Nadu,India
+375,Ponnani,Kerala,India
+376,Jamui,Bihar,India
+377,Sitamarhi,Bihar,India
+378,Chirala,Andhra Pradesh,India
+379,Anjar,Gujarat,India
+380,Karaikal,Puducherry,India
+381,Hansi,Haryana,India
+382,Anakapalle,Andhra Pradesh,India
+383,Mahasamund,Chhattisgarh,India
+384,Faridkot,Punjab,India
+385,Saunda,Jharkhand,India
+386,Dhoraji,Gujarat,India
+387,Paramakudi,Tamil Nadu,India
+388,Balaghat,Madhya Pradesh,India
+389,Sujangarh,Rajasthan,India
+390,Khambhat,Gujarat,India
+391,Muktsar,Punjab,India
+392,Rajpura,Punjab,India
+393,Kavali,Andhra Pradesh,India
+394,Dhamtari,Chhattisgarh,India
+395,Ashok Nagar,Madhya Pradesh,India
+396,Sardarshahar,Rajasthan,India
+397,Mahuva,Gujarat,India
+398,Bargarh,Odisha,India
+399,Kamareddy,Telangana,India
+400,Sahibganj,Jharkhand,India
+401,Kothagudem,Telangana,India
+402,Ramanagaram,Karnataka,India
+403,Gokak,Karnataka,India
+404,Tikamgarh,Madhya Pradesh,India
+405,Araria,Bihar,India
+406,Rishikesh,Uttarakhand,India
+407,Shahdol,Madhya Pradesh,India
+408,Medininagar (Daltonganj),Jharkhand,India
+409,Arakkonam,Tamil Nadu,India
+410,Washim,Maharashtra,India
+411,Sangrur,Punjab,India
+412,Bodhan,Telangana,India
+413,Fazilka,Punjab,India
+414,Palacole,Andhra Pradesh,India
+415,Keshod,Gujarat,India
+416,Sullurpeta,Andhra Pradesh,India
+417,Wadhwan,Gujarat,India
+418,Gurdaspur,Punjab,India
+419,Vatakara,Kerala,India
+420,Tura,Meghalaya,India
+421,Narnaul,Haryana,India
+422,Kharar,Punjab,India
+423,Yadgir,Karnataka,India
+424,Ambejogai,Maharashtra,India
+425,Ankleshwar,Gujarat,India
+426,Savarkundla,Gujarat,India
+427,Paradip,Odisha,India
+428,Virudhachalam,Tamil Nadu,India
+429,Kanhangad,Kerala,India
+430,Kadi,Gujarat,India
+431,Srivilliputhur,Tamil Nadu,India
+432,Gobindgarh,Punjab,India
+433,Tindivanam,Tamil Nadu,India
+434,Mansa,Punjab,India
+435,Taliparamba,Kerala,India
+436,Manmad,Maharashtra,India
+437,Tanuku,Andhra Pradesh,India
+438,Rayachoti,Andhra Pradesh,India
+439,Virudhunagar,Tamil Nadu,India
+440,Koyilandy,Kerala,India
+441,Jorhat,Assam,India
+442,Karur,Tamil Nadu,India
+443,Valparai,Tamil Nadu,India
+444,Srikalahasti,Andhra Pradesh,India
+445,Neyyattinkara,Kerala,India
+446,Bapatla,Andhra Pradesh,India
+447,Fatehabad,Haryana,India
+448,Malout,Punjab,India
+449,Sankarankovil,Tamil Nadu,India
+450,Tenkasi,Tamil Nadu,India
+451,Ratnagiri,Maharashtra,India
+452,Rabkavi Banhatti,Karnataka,India
+453,Sikandrabad,Uttar Pradesh,India
+454,Chaibasa,Jharkhand,India
+455,Chirmiri,Chhattisgarh,India
+456,Palwancha,Telangana,India
+457,Bhawanipatna,Odisha,India
+458,Kayamkulam,Kerala,India
+459,Pithampur,Madhya Pradesh,India
+460,Nabha,Punjab,India
+461,"Shahabad, Hardoi",Uttar Pradesh,India
+462,Dhenkanal,Odisha,India
+463,Uran Islampur,Maharashtra,India
+464,Gopalganj,Bihar,India
+465,Bongaigaon City,Assam,India
+466,Palani,Tamil Nadu,India
+467,Pusad,Maharashtra,India
+468,Sopore,Jammu and Kashmir,India
+469,Pilkhuwa,Uttar Pradesh,India
+470,Tarn Taran,Punjab,India
+471,Renukoot,Uttar Pradesh,India
+472,Mandamarri,Telangana,India
+473,Shahabad,Karnataka,India
+474,Barbil,Odisha,India
+475,Koratla,Telangana,India
+476,Madhubani,Bihar,India
+477,Arambagh,West Bengal,India
+478,Gohana,Haryana,India
+479,Ladnu,Rajasthan,India
+480,Pattukkottai,Tamil Nadu,India
+481,Sirsi,Karnataka,India
+482,Sircilla,Telangana,India
+483,Tamluk,West Bengal,India
+484,Jagraon,Punjab,India
+485,AlipurdUrban Agglomerationr,West Bengal,India
+486,Alirajpur,Madhya Pradesh,India
+487,Tandur,Telangana,India
+488,Naidupet,Andhra Pradesh,India
+489,Tirupathur,Tamil Nadu,India
+490,Tohana,Haryana,India
+491,Ratangarh,Rajasthan,India
+492,Dhubri,Assam,India
+493,Masaurhi,Bihar,India
+494,Visnagar,Gujarat,India
+495,Vrindavan,Uttar Pradesh,India
+496,Nokha,Rajasthan,India
+497,Nagari,Andhra Pradesh,India
+498,Narwana,Haryana,India
+499,Ramanathapuram,Tamil Nadu,India
+500,Ujhani,Uttar Pradesh,India
+501,Samastipur,Bihar,India
+502,Laharpur,Uttar Pradesh,India
+503,Sangamner,Maharashtra,India
+504,Nimbahera,Rajasthan,India
+505,Siddipet,Telangana,India
+506,Suri,West Bengal,India
+507,Diphu,Assam,India
+508,Jhargram,West Bengal,India
+509,Shirpur-Warwade,Maharashtra,India
+510,Tilhar,Uttar Pradesh,India
+511,Sindhnur,Karnataka,India
+512,Udumalaipettai,Tamil Nadu,India
+513,Malkapur,Maharashtra,India
+514,Wanaparthy,Telangana,India
+515,Gudur,Andhra Pradesh,India
+516,Kendujhar,Odisha,India
+517,Mandla,Madhya Pradesh,India
+518,Mandi,Himachal Pradesh,India
+519,Nedumangad,Kerala,India
+520,North Lakhimpur,Assam,India
+521,Vinukonda,Andhra Pradesh,India
+522,Tiptur,Karnataka,India
+523,Gobichettipalayam,Tamil Nadu,India
+524,Sunabeda,Odisha,India
+525,Wani,Maharashtra,India
+526,Upleta,Gujarat,India
+527,Narasapuram,Andhra Pradesh,India
+528,Nuzvid,Andhra Pradesh,India
+529,Tezpur,Assam,India
+530,Una,Gujarat,India
+531,Markapur,Andhra Pradesh,India
+532,Sheopur,Madhya Pradesh,India
+533,Thiruvarur,Tamil Nadu,India
+534,Sidhpur,Gujarat,India
+535,Sahaswan,Uttar Pradesh,India
+536,Suratgarh,Rajasthan,India
+537,Shajapur,Madhya Pradesh,India
+538,Rayagada,Odisha,India
+539,Lonavla,Maharashtra,India
+540,Ponnur,Andhra Pradesh,India
+541,Kagaznagar,Telangana,India
+542,Gadwal,Telangana,India
+543,Bhatapara,Chhattisgarh,India
+544,Kandukur,Andhra Pradesh,India
+545,Sangareddy,Telangana,India
+546,Unjha,Gujarat,India
+547,Lunglei,Mizoram,India
+548,Karimganj,Assam,India
+549,Kannur,Kerala,India
+550,Bobbili,Andhra Pradesh,India
+551,Mokameh,Bihar,India
+552,Talegaon Dabhade,Maharashtra,India
+553,Anjangaon,Maharashtra,India
+554,Mangrol,Gujarat,India
+555,Sunam,Punjab,India
+556,Gangarampur,West Bengal,India
+557,Thiruvallur,Tamil Nadu,India
+558,Tirur,Kerala,India
+559,Rath,Uttar Pradesh,India
+560,Jatani,Odisha,India
+561,Viramgam,Gujarat,India
+562,Rajsamand,Rajasthan,India
+563,Yanam,Puducherry,India
+564,Kottayam,Kerala,India
+565,Panruti,Tamil Nadu,India
+566,Dhuri,Punjab,India
+567,Namakkal,Tamil Nadu,India
+568,Kasaragod,Kerala,India
+569,Modasa,Gujarat,India
+570,Rayadurg,Andhra Pradesh,India
+571,Supaul,Bihar,India
+572,Kunnamkulam,Kerala,India
+573,Umred,Maharashtra,India
+574,Bellampalle,Telangana,India
+575,Sibsagar,Assam,India
+576,Mandi Dabwali,Haryana,India
+577,Ottappalam,Kerala,India
+578,Dumraon,Bihar,India
+579,Samalkot,Andhra Pradesh,India
+580,Jaggaiahpet,Andhra Pradesh,India
+581,Goalpara,Assam,India
+582,Tuni,Andhra Pradesh,India
+583,Lachhmangarh,Rajasthan,India
+584,Bhongir,Telangana,India
+585,Amalapuram,Andhra Pradesh,India
+586,Firozpur Cantt.,Punjab,India
+587,Vikarabad,Telangana,India
+588,Thiruvalla,Kerala,India
+589,Sherkot,Uttar Pradesh,India
+590,Palghar,Maharashtra,India
+591,Shegaon,Maharashtra,India
+592,Jangaon,Telangana,India
+593,Bheemunipatnam,Andhra Pradesh,India
+594,Panna,Madhya Pradesh,India
+595,Thodupuzha,Kerala,India
+596,KathUrban Agglomeration,Jammu and Kashmir,India
+597,Palitana,Gujarat,India
+598,Arwal,Bihar,India
+599,Venkatagiri,Andhra Pradesh,India
+600,Kalpi,Uttar Pradesh,India
+601,Rajgarh (Churu),Rajasthan,India
+602,Sattenapalle,Andhra Pradesh,India
+603,Arsikere,Karnataka,India
+604,Ozar,Maharashtra,India
+605,Thirumangalam,Tamil Nadu,India
+606,Petlad,Gujarat,India
+607,Nasirabad,Rajasthan,India
+608,Phaltan,Maharashtra,India
+609,Rampurhat,West Bengal,India
+610,Nanjangud,Karnataka,India
+611,Forbesganj,Bihar,India
+612,Tundla,Uttar Pradesh,India
+613,BhabUrban Agglomeration,Bihar,India
+614,Sagara,Karnataka,India
+615,Pithapuram,Andhra Pradesh,India
+616,Sira,Karnataka,India
+617,Bhadrachalam,Telangana,India
+618,Charkhi Dadri,Haryana,India
+619,Chatra,Jharkhand,India
+620,Palasa Kasibugga,Andhra Pradesh,India
+621,Nohar,Rajasthan,India
+622,Yevla,Maharashtra,India
+623,Sirhind Fatehgarh Sahib,Punjab,India
+624,Bhainsa,Telangana,India
+625,Parvathipuram,Andhra Pradesh,India
+626,Shahade,Maharashtra,India
+627,Chalakudy,Kerala,India
+628,Narkatiaganj,Bihar,India
+629,Kapadvanj,Gujarat,India
+630,Macherla,Andhra Pradesh,India
+631,Raghogarh-Vijaypur,Madhya Pradesh,India
+632,Rupnagar,Punjab,India
+633,Naugachhia,Bihar,India
+634,Sendhwa,Madhya Pradesh,India
+635,Byasanagar,Odisha,India
+636,Sandila,Uttar Pradesh,India
+637,Gooty,Andhra Pradesh,India
+638,Salur,Andhra Pradesh,India
+639,Nanpara,Uttar Pradesh,India
+640,Sardhana,Uttar Pradesh,India
+641,Vita,Maharashtra,India
+642,Gumia,Jharkhand,India
+643,Puttur,Karnataka,India
+644,Jalandhar Cantt.,Punjab,India
+645,Nehtaur,Uttar Pradesh,India
+646,Changanassery,Kerala,India
+647,Mandapeta,Andhra Pradesh,India
+648,Dumka,Jharkhand,India
+649,Seohara,Uttar Pradesh,India
+650,Umarkhed,Maharashtra,India
+651,Madhupur,Jharkhand,India
+652,Vikramasingapuram,Tamil Nadu,India
+653,Punalur,Kerala,India
+654,Kendrapara,Odisha,India
+655,Sihor,Gujarat,India
+656,Nellikuppam,Tamil Nadu,India
+657,Samana,Punjab,India
+658,Warora,Maharashtra,India
+659,Nilambur,Kerala,India
+660,Rasipuram,Tamil Nadu,India
+661,Ramnagar,Uttarakhand,India
+662,Jammalamadugu,Andhra Pradesh,India
+663,Nawanshahr,Punjab,India
+664,Thoubal,Manipur,India
+665,Athni,Karnataka,India
+666,Cherthala,Kerala,India
+667,Sidhi,Madhya Pradesh,India
+668,Farooqnagar,Telangana,India
+669,Peddapuram,Andhra Pradesh,India
+670,Chirkunda,Jharkhand,India
+671,Pachora,Maharashtra,India
+672,Madhepura,Bihar,India
+673,Pithoragarh,Uttarakhand,India
+674,Tumsar,Maharashtra,India
+675,Phalodi,Rajasthan,India
+676,Tiruttani,Tamil Nadu,India
+677,Rampura Phul,Punjab,India
+678,Perinthalmanna,Kerala,India
+679,Padrauna,Uttar Pradesh,India
+680,Pipariya,Madhya Pradesh,India
+681,Dalli-Rajhara,Chhattisgarh,India
+682,Punganur,Andhra Pradesh,India
+683,Mattannur,Kerala,India
+684,Mathura,Uttar Pradesh,India
+685,Thakurdwara,Uttar Pradesh,India
+686,Nandivaram-Guduvancheri,Tamil Nadu,India
+687,Mulbagal,Karnataka,India
+688,Manjlegaon,Maharashtra,India
+689,Wankaner,Gujarat,India
+690,Sillod,Maharashtra,India
+691,Nidadavole,Andhra Pradesh,India
+692,Surapura,Karnataka,India
+693,Rajagangapur,Odisha,India
+694,Sheikhpura,Bihar,India
+695,Parlakhemundi,Odisha,India
+696,Kalimpong,West Bengal,India
+697,Siruguppa,Karnataka,India
+698,Arvi,Maharashtra,India
+699,Limbdi,Gujarat,India
+700,Barpeta,Assam,India
+701,Manglaur,Uttarakhand,India
+702,Repalle,Andhra Pradesh,India
+703,Mudhol,Karnataka,India
+704,Shujalpur,Madhya Pradesh,India
+705,Mandvi,Gujarat,India
+706,Thangadh,Gujarat,India
+707,Sironj,Madhya Pradesh,India
+708,Nandura,Maharashtra,India
+709,Shoranur,Kerala,India
+710,Nathdwara,Rajasthan,India
+711,Periyakulam,Tamil Nadu,India
+712,Sultanganj,Bihar,India
+713,Medak,Telangana,India
+714,Narayanpet,Telangana,India
+715,Raxaul Bazar,Bihar,India
+716,Rajauri,Jammu and Kashmir,India
+717,Pernampattu,Tamil Nadu,India
+718,Nainital,Uttarakhand,India
+719,Ramachandrapuram,Andhra Pradesh,India
+720,Vaijapur,Maharashtra,India
+721,Nangal,Punjab,India
+722,Sidlaghatta,Karnataka,India
+723,Punch,Jammu and Kashmir,India
+724,Pandhurna,Madhya Pradesh,India
+725,Wadgaon Road,Maharashtra,India
+726,Talcher,Odisha,India
+727,Varkala,Kerala,India
+728,Pilani,Rajasthan,India
+729,Nowgong,Madhya Pradesh,India
+730,Naila Janjgir,Chhattisgarh,India
+731,Mapusa,Goa,India
+732,Vellakoil,Tamil Nadu,India
+733,Merta City,Rajasthan,India
+734,Sivaganga,Tamil Nadu,India
+735,Mandideep,Madhya Pradesh,India
+736,Sailu,Maharashtra,India
+737,Vyara,Gujarat,India
+738,Kovvur,Andhra Pradesh,India
+739,Vadalur,Tamil Nadu,India
+740,Nawabganj,Uttar Pradesh,India
+741,Padra,Gujarat,India
+742,Sainthia,West Bengal,India
+743,Siana,Uttar Pradesh,India
+744,Shahpur,Karnataka,India
+745,Sojat,Rajasthan,India
+746,Noorpur,Uttar Pradesh,India
+747,Paravoor,Kerala,India
+748,Murtijapur,Maharashtra,India
+749,Ramnagar,Bihar,India
+750,Sundargarh,Odisha,India
+751,Taki,West Bengal,India
+752,Saundatti-Yellamma,Karnataka,India
+753,Pathanamthitta,Kerala,India
+754,Wadi,Karnataka,India
+755,Rameshwaram,Tamil Nadu,India
+756,Tasgaon,Maharashtra,India
+757,Sikandra Rao,Uttar Pradesh,India
+758,Sihora,Madhya Pradesh,India
+759,Tiruvethipuram,Tamil Nadu,India
+760,Tiruvuru,Andhra Pradesh,India
+761,Mehkar,Maharashtra,India
+762,Peringathur,Kerala,India
+763,Perambalur,Tamil Nadu,India
+764,Manvi,Karnataka,India
+765,Zunheboto,Nagaland,India
+766,Mahnar Bazar,Bihar,India
+767,Attingal,Kerala,India
+768,Shahbad,Haryana,India
+769,Puranpur,Uttar Pradesh,India
+770,Nelamangala,Karnataka,India
+771,Nakodar,Punjab,India
+772,Lunawada,Gujarat,India
+773,Murshidabad,West Bengal,India
+774,Mahe,Puducherry,India
+775,Lanka,Assam,India
+776,Rudauli,Uttar Pradesh,India
+777,Tuensang,Nagaland,India
+778,Lakshmeshwar,Karnataka,India
+779,Zira,Punjab,India
+780,Yawal,Maharashtra,India
+781,Thana Bhawan,Uttar Pradesh,India
+782,Ramdurg,Karnataka,India
+783,Pulgaon,Maharashtra,India
+784,Sadasivpet,Telangana,India
+785,Nargund,Karnataka,India
+786,Neem-Ka-Thana,Rajasthan,India
+787,Memari,West Bengal,India
+788,Nilanga,Maharashtra,India
+789,Naharlagun,Arunachal Pradesh,India
+790,Pakaur,Jharkhand,India
+791,Wai,Maharashtra,India
+792,Tarikere,Karnataka,India
+793,Malavalli,Karnataka,India
+794,Raisen,Madhya Pradesh,India
+795,Lahar,Madhya Pradesh,India
+796,Uravakonda,Andhra Pradesh,India
+797,Savanur,Karnataka,India
+798,Sirohi,Rajasthan,India
+799,Udhampur,Jammu and Kashmir,India
+800,Umarga,Maharashtra,India
+801,Pratapgarh,Rajasthan,India
+802,Lingsugur,Karnataka,India
+803,Usilampatti,Tamil Nadu,India
+804,Palia Kalan,Uttar Pradesh,India
+805,Wokha,Nagaland,India
+806,Rajpipla,Gujarat,India
+807,Vijayapura,Karnataka,India
+808,Rawatbhata,Rajasthan,India
+809,Sangaria,Rajasthan,India
+810,Paithan,Maharashtra,India
+811,Rahuri,Maharashtra,India
+812,Patti,Punjab,India
+813,Zaidpur,Uttar Pradesh,India
+814,Lalsot,Rajasthan,India
+815,Maihar,Madhya Pradesh,India
+816,Vedaranyam,Tamil Nadu,India
+817,Nawapur,Maharashtra,India
+818,Solan,Himachal Pradesh,India
+819,Vapi,Gujarat,India
+820,Sanawad,Madhya Pradesh,India
+821,Warisaliganj,Bihar,India
+822,Revelganj,Bihar,India
+823,Sabalgarh,Madhya Pradesh,India
+824,Tuljapur,Maharashtra,India
+825,Simdega,Jharkhand,India
+826,Musabani,Jharkhand,India
+827,Kodungallur,Kerala,India
+828,Phulabani,Odisha,India
+829,Umreth,Gujarat,India
+830,Narsipatnam,Andhra Pradesh,India
+831,Nautanwa,Uttar Pradesh,India
+832,Rajgir,Bihar,India
+833,Yellandu,Telangana,India
+834,Sathyamangalam,Tamil Nadu,India
+835,Pilibanga,Rajasthan,India
+836,Morshi,Maharashtra,India
+837,Pehowa,Haryana,India
+838,Sonepur,Bihar,India
+839,Pappinisseri,Kerala,India
+840,Zamania,Uttar Pradesh,India
+841,Mihijam,Jharkhand,India
+842,Purna,Maharashtra,India
+843,Puliyankudi,Tamil Nadu,India
+844,"Shikarpur, Bulandshahr",Uttar Pradesh,India
+845,Umaria,Madhya Pradesh,India
+846,Porsa,Madhya Pradesh,India
+847,Naugawan Sadat,Uttar Pradesh,India
+848,Fatehpur Sikri,Uttar Pradesh,India
+849,Manuguru,Telangana,India
+850,Udaipur,Tripura,India
+851,Pipar City,Rajasthan,India
+852,Pattamundai,Odisha,India
+853,Nanjikottai,Tamil Nadu,India
+854,Taranagar,Rajasthan,India
+855,Yerraguntla,Andhra Pradesh,India
+856,Satana,Maharashtra,India
+857,Sherghati,Bihar,India
+858,Sankeshwara,Karnataka,India
+859,Madikeri,Karnataka,India
+860,Thuraiyur,Tamil Nadu,India
+861,Sanand,Gujarat,India
+862,Rajula,Gujarat,India
+863,Kyathampalle,Telangana,India
+864,"Shahabad, Rampur",Uttar Pradesh,India
+865,Tilda Newra,Chhattisgarh,India
+866,Narsinghgarh,Madhya Pradesh,India
+867,Chittur-Thathamangalam,Kerala,India
+868,Malaj Khand,Madhya Pradesh,India
+869,Sarangpur,Madhya Pradesh,India
+870,Robertsganj,Uttar Pradesh,India
+871,Sirkali,Tamil Nadu,India
+872,Radhanpur,Gujarat,India
+873,Tiruchendur,Tamil Nadu,India
+874,Utraula,Uttar Pradesh,India
+875,Patratu,Jharkhand,India
+876,"Vijainagar, Ajmer",Rajasthan,India
+877,Periyasemur,Tamil Nadu,India
+878,Pathri,Maharashtra,India
+879,Sadabad,Uttar Pradesh,India
+880,Talikota,Karnataka,India
+881,Sinnar,Maharashtra,India
+882,Mungeli,Chhattisgarh,India
+883,Sedam,Karnataka,India
+884,Shikaripur,Karnataka,India
+885,Sumerpur,Rajasthan,India
+886,Sattur,Tamil Nadu,India
+887,Sugauli,Bihar,India
+888,Lumding,Assam,India
+889,Vandavasi,Tamil Nadu,India
+890,Titlagarh,Odisha,India
+891,Uchgaon,Maharashtra,India
+892,Mokokchung,Nagaland,India
+893,Paschim Punropara,West Bengal,India
+894,Sagwara,Rajasthan,India
+895,Ramganj Mandi,Rajasthan,India
+896,Tarakeswar,West Bengal,India
+897,Mahalingapura,Karnataka,India
+898,Dharmanagar,Tripura,India
+899,Mahemdabad,Gujarat,India
+900,Manendragarh,Chhattisgarh,India
+901,Uran,Maharashtra,India
+902,Tharamangalam,Tamil Nadu,India
+903,Tirukkoyilur,Tamil Nadu,India
+904,Pen,Maharashtra,India
+905,Makhdumpur,Bihar,India
+906,Maner,Bihar,India
+907,Oddanchatram,Tamil Nadu,India
+908,Palladam,Tamil Nadu,India
+909,Mundi,Madhya Pradesh,India
+910,Nabarangapur,Odisha,India
+911,Mudalagi,Karnataka,India
+912,Samalkha,Haryana,India
+913,Nepanagar,Madhya Pradesh,India
+914,Karjat,Maharashtra,India
+915,Ranavav,Gujarat,India
+916,Pedana,Andhra Pradesh,India
+917,Pinjore,Haryana,India
+918,Lakheri,Rajasthan,India
+919,Pasan,Madhya Pradesh,India
+920,Puttur,Andhra Pradesh,India
+921,Vadakkuvalliyur,Tamil Nadu,India
+922,Tirukalukundram,Tamil Nadu,India
+923,Mahidpur,Madhya Pradesh,India
+924,Mussoorie,Uttarakhand,India
+925,Muvattupuzha,Kerala,India
+926,Rasra,Uttar Pradesh,India
+927,Udaipurwati,Rajasthan,India
+928,Manwath,Maharashtra,India
+929,Adoor,Kerala,India
+930,Uthamapalayam,Tamil Nadu,India
+931,Partur,Maharashtra,India
+932,Nahan,Himachal Pradesh,India
+933,Ladwa,Haryana,India
+934,Mankachar,Assam,India
+935,Nongstoin,Meghalaya,India
+936,Losal,Rajasthan,India
+937,Sri Madhopur,Rajasthan,India
+938,Ramngarh,Rajasthan,India
+939,Mavelikkara,Kerala,India
+940,Rawatsar,Rajasthan,India
+941,Rajakhera,Rajasthan,India
+942,Lar,Uttar Pradesh,India
+943,Lal Gopalganj Nindaura,Uttar Pradesh,India
+944,Muddebihal,Karnataka,India
+945,Sirsaganj,Uttar Pradesh,India
+946,Shahpura,Rajasthan,India
+947,Surandai,Tamil Nadu,India
+948,Sangole,Maharashtra,India
+949,Pavagada,Karnataka,India
+950,Tharad,Gujarat,India
+951,Mansa,Gujarat,India
+952,Umbergaon,Gujarat,India
+953,Mavoor,Kerala,India
+954,Nalbari,Assam,India
+955,Talaja,Gujarat,India
+956,Malur,Karnataka,India
+957,Mangrulpir,Maharashtra,India
+958,Soro,Odisha,India
+959,Shahpura,Rajasthan,India
+960,Vadnagar,Gujarat,India
+961,Raisinghnagar,Rajasthan,India
+962,Sindhagi,Karnataka,India
+963,Sanduru,Karnataka,India
+964,Sohna,Haryana,India
+965,Manavadar,Gujarat,India
+966,Pihani,Uttar Pradesh,India
+967,Safidon,Haryana,India
+968,Risod,Maharashtra,India
+969,Rosera,Bihar,India
+970,Sankari,Tamil Nadu,India
+971,Malpura,Rajasthan,India
+972,Sonamukhi,West Bengal,India
+973,"Shamsabad, Agra",Uttar Pradesh,India
+974,Nokha,Bihar,India
+975,PandUrban Agglomeration,West Bengal,India
+976,Mainaguri,West Bengal,India
+977,Afzalpur,Karnataka,India
+978,Shirur,Maharashtra,India
+979,Salaya,Gujarat,India
+980,Shenkottai,Tamil Nadu,India
+981,Pratapgarh,Tripura,India
+982,Vadipatti,Tamil Nadu,India
+983,Nagarkurnool,Telangana,India
+984,Savner,Maharashtra,India
+985,Sasvad,Maharashtra,India
+986,Rudrapur,Uttar Pradesh,India
+987,Soron,Uttar Pradesh,India
+988,Sholingur,Tamil Nadu,India
+989,Pandharkaoda,Maharashtra,India
+990,Perumbavoor,Kerala,India
+991,Maddur,Karnataka,India
+992,Nadbai,Rajasthan,India
+993,Talode,Maharashtra,India
+994,Shrigonda,Maharashtra,India
+995,Madhugiri,Karnataka,India
+996,Tekkalakote,Karnataka,India
+997,Seoni-Malwa,Madhya Pradesh,India
+998,Shirdi,Maharashtra,India
+999,SUrban Agglomerationr,Uttar Pradesh,India
+1000,Terdal,Karnataka,India
+1001,Raver,Maharashtra,India
+1002,Tirupathur,Tamil Nadu,India
+1003,Taraori,Haryana,India
+1004,Mukhed,Maharashtra,India
+1005,Manachanallur,Tamil Nadu,India
+1006,Rehli,Madhya Pradesh,India
+1007,Sanchore,Rajasthan,India
+1008,Rajura,Maharashtra,India
+1009,Piro,Bihar,India
+1010,Mudabidri,Karnataka,India
+1011,Vadgaon Kasba,Maharashtra,India
+1012,Nagar,Rajasthan,India
+1013,Vijapur,Gujarat,India
+1014,Viswanatham,Tamil Nadu,India
+1015,Polur,Tamil Nadu,India
+1016,Panagudi,Tamil Nadu,India
+1017,Manawar,Madhya Pradesh,India
+1018,Tehri,Uttarakhand,India
+1019,Samdhan,Uttar Pradesh,India
+1020,Pardi,Gujarat,India
+1021,Rahatgarh,Madhya Pradesh,India
+1022,Panagar,Madhya Pradesh,India
+1023,Uthiramerur,Tamil Nadu,India
+1024,Tirora,Maharashtra,India
+1025,Rangia,Assam,India
+1026,Sahjanwa,Uttar Pradesh,India
+1027,Wara Seoni,Madhya Pradesh,India
+1028,Magadi,Karnataka,India
+1029,Rajgarh (Alwar),Rajasthan,India
+1030,Rafiganj,Bihar,India
+1031,Tarana,Madhya Pradesh,India
+1032,Rampur Maniharan,Uttar Pradesh,India
+1033,Sheoganj,Rajasthan,India
+1034,Raikot,Punjab,India
+1035,Pauri,Uttarakhand,India
+1036,Sumerpur,Uttar Pradesh,India
+1037,Navalgund,Karnataka,India
+1038,Shahganj,Uttar Pradesh,India
+1039,Marhaura,Bihar,India
+1040,Tulsipur,Uttar Pradesh,India
+1041,Sadri,Rajasthan,India
+1042,Thiruthuraipoondi,Tamil Nadu,India
+1043,Shiggaon,Karnataka,India
+1044,Pallapatti,Tamil Nadu,India
+1045,Mahendragarh,Haryana,India
+1046,Sausar,Madhya Pradesh,India
+1047,Ponneri,Tamil Nadu,India
+1048,Mahad,Maharashtra,India
+1049,Lohardaga,Jharkhand,India
+1050,Tirwaganj,Uttar Pradesh,India
+1051,Margherita,Assam,India
+1052,Sundarnagar,Himachal Pradesh,India
+1053,Rajgarh,Madhya Pradesh,India
+1054,Mangaldoi,Assam,India
+1055,Renigunta,Andhra Pradesh,India
+1056,Longowal,Punjab,India
+1057,Ratia,Haryana,India
+1058,Lalgudi,Tamil Nadu,India
+1059,Shrirangapattana,Karnataka,India
+1060,Niwari,Madhya Pradesh,India
+1061,Natham,Tamil Nadu,India
+1062,Unnamalaikadai,Tamil Nadu,India
+1063,PurqUrban Agglomerationzi,Uttar Pradesh,India
+1064,"Shamsabad, Farrukhabad",Uttar Pradesh,India
+1065,Mirganj,Bihar,India
+1066,Todaraisingh,Rajasthan,India
+1067,Warhapur,Uttar Pradesh,India
+1068,Rajam,Andhra Pradesh,India
+1069,Urmar Tanda,Punjab,India
+1070,Lonar,Maharashtra,India
+1071,Powayan,Uttar Pradesh,India
+1072,P.N.Patti,Tamil Nadu,India
+1073,Palampur,Himachal Pradesh,India
+1074,Srisailam Project (Right Flank Colony) Township,Andhra Pradesh,India
+1075,Sindagi,Karnataka,India
+1076,Sandi,Uttar Pradesh,India
+1077,Vaikom,Kerala,India
+1078,Malda,West Bengal,India
+1079,Tharangambadi,Tamil Nadu,India
+1080,Sakaleshapura,Karnataka,India
+1081,Lalganj,Bihar,India
+1082,Malkangiri,Odisha,India
+1083,Rapar,Gujarat,India
+1084,Mauganj,Madhya Pradesh,India
+1085,Todabhim,Rajasthan,India
+1086,Srinivaspur,Karnataka,India
+1087,Murliganj,Bihar,India
+1088,Reengus,Rajasthan,India
+1089,Sawantwadi,Maharashtra,India
+1090,Tittakudi,Tamil Nadu,India
+1091,Lilong,Manipur,India
+1092,Rajaldesar,Rajasthan,India
+1093,Pathardi,Maharashtra,India
+1094,Achhnera,Uttar Pradesh,India
+1095,Pacode,Tamil Nadu,India
+1096,Naraura,Uttar Pradesh,India
+1097,Nakur,Uttar Pradesh,India
+1098,Palai,Kerala,India
+1099,"Morinda, India",Punjab,India
+1100,Manasa,Madhya Pradesh,India
+1101,Nainpur,Madhya Pradesh,India
+1102,Sahaspur,Uttar Pradesh,India
+1103,Pauni,Maharashtra,India
+1104,Prithvipur,Madhya Pradesh,India
+1105,Ramtek,Maharashtra,India
+1106,Silapathar,Assam,India
+1107,Songadh,Gujarat,India
+1108,Safipur,Uttar Pradesh,India
+1109,Sohagpur,Madhya Pradesh,India
+1110,Mul,Maharashtra,India
+1111,Sadulshahar,Rajasthan,India
+1112,Phillaur,Punjab,India
+1113,Sambhar,Rajasthan,India
+1114,Prantij,Rajasthan,India
+1115,Nagla,Uttarakhand,India
+1116,Pattran,Punjab,India
+1117,Mount Abu,Rajasthan,India
+1118,Reoti,Uttar Pradesh,India
+1119,Tenu dam-cum-Kathhara,Jharkhand,India
+1120,Panchla,West Bengal,India
+1121,Sitarganj,Uttarakhand,India
+1122,Pasighat,Arunachal Pradesh,India
+1123,Motipur,Bihar,India
+1124,O' Valley,Tamil Nadu,India
+1125,Raghunathpur,West Bengal,India
+1126,Suriyampalayam,Tamil Nadu,India
+1127,Qadian,Punjab,India
+1128,Rairangpur,Odisha,India
+1129,Silvassa,Dadra and Nagar Haveli,India
+1130,Nowrozabad (Khodargama),Madhya Pradesh,India
+1131,Mangrol,Rajasthan,India
+1132,Soyagaon,Maharashtra,India
+1133,Sujanpur,Punjab,India
+1134,Manihari,Bihar,India
+1135,Sikanderpur,Uttar Pradesh,India
+1136,Mangalvedhe,Maharashtra,India
+1137,Phulera,Rajasthan,India
+1138,Ron,Karnataka,India
+1139,Sholavandan,Tamil Nadu,India
+1140,Saidpur,Uttar Pradesh,India
+1141,Shamgarh,Madhya Pradesh,India
+1142,Thammampatti,Tamil Nadu,India
+1143,Maharajpur,Madhya Pradesh,India
+1144,Multai,Madhya Pradesh,India
+1145,Mukerian,Punjab,India
+1146,Sirsi,Uttar Pradesh,India
+1147,Purwa,Uttar Pradesh,India
+1148,Sheohar,Bihar,India
+1149,Namagiripettai,Tamil Nadu,India
+1150,Parasi,Uttar Pradesh,India
+1151,Lathi,Gujarat,India
+1152,Lalganj,Uttar Pradesh,India
+1153,Narkhed,Maharashtra,India
+1154,Mathabhanga,West Bengal,India
+1155,Shendurjana,Maharashtra,India
+1156,Peravurani,Tamil Nadu,India
+1157,Mariani,Assam,India
+1158,Phulpur,Uttar Pradesh,India
+1159,Rania,Haryana,India
+1160,Pali,Madhya Pradesh,India
+1161,Pachore,Madhya Pradesh,India
+1162,Parangipettai,Tamil Nadu,India
+1163,Pudupattinam,Tamil Nadu,India
+1164,Panniyannur,Kerala,India
+1165,Maharajganj,Bihar,India
+1166,Rau,Madhya Pradesh,India
+1167,Monoharpur,West Bengal,India
+1168,Mandawa,Rajasthan,India
+1169,Marigaon,Assam,India
+1170,Pallikonda,Tamil Nadu,India
+1171,Pindwara,Rajasthan,India
+1172,Shishgarh,Uttar Pradesh,India
+1173,Patur,Maharashtra,India
+1174,Mayang Imphal,Manipur,India
+1175,Mhowgaon,Madhya Pradesh,India
+1176,Guruvayoor,Kerala,India
+1177,Mhaswad,Maharashtra,India
+1178,Sahawar,Uttar Pradesh,India
+1179,Sivagiri,Tamil Nadu,India
+1180,Mundargi,Karnataka,India
+1181,Punjaipugalur,Tamil Nadu,India
+1182,Kailasahar,Tripura,India
+1183,Samthar,Uttar Pradesh,India
+1184,Sakti,Chhattisgarh,India
+1185,Sadalagi,Karnataka,India
+1186,Silao,Bihar,India
+1187,Mandalgarh,Rajasthan,India
+1188,Loha,Maharashtra,India
+1189,Pukhrayan,Uttar Pradesh,India
+1190,Padmanabhapuram,Tamil Nadu,India
+1191,Belonia,Tripura,India
+1192,Saiha,Mizoram,India
+1193,Srirampore,West Bengal,India
+1194,Talwara,Punjab,India
+1195,Puthuppally,Kerala,India
+1196,Khowai,Tripura,India
+1197,Vijaypur,Madhya Pradesh,India
+1198,Takhatgarh,Rajasthan,India
+1199,Thirupuvanam,Tamil Nadu,India
+1200,Adra,West Bengal,India
+1201,Piriyapatna,Karnataka,India
+1202,Obra,Uttar Pradesh,India
+1203,Adalaj,Gujarat,India
+1204,Nandgaon,Maharashtra,India
+1205,Barh,Bihar,India
+1206,Chhapra,Gujarat,India
+1207,Panamattom,Kerala,India
+1208,Niwai,Uttar Pradesh,India
+1209,Bageshwar,Uttarakhand,India
+1210,Tarbha,Odisha,India
+1211,Adyar,Karnataka,India
+1212,Narsinghgarh,Madhya Pradesh,India
+1213,Warud,Maharashtra,India
+1214,Asarganj,Bihar,India
+1215,Sarsod,Haryana,India
+1216,Gandhinagar,Gujarat,India
+1217,Kullu,Himachal Pradesh,India
+1218,Manali,Himachal Praddesh,India
+1219,Mirzapur,Uttar Pradesh,India
+1220,Kota,Rajasthan,India
+1221,Dispur,Assam,India

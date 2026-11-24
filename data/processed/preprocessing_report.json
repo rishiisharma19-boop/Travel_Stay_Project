@@ -1,0 +1,25 @@
+{
+  "source_file": "booking_com-travel_sample.csv",
+  "source_rows": 6000,
+  "source_columns": 29,
+  "source_missing_property_name": 590,
+  "source_missing_property_id": 590,
+  "source_missing_city": 18,
+  "rows_removed_missing_name_or_city": 608,
+  "cleaned_stay_rows": 5392,
+  "destination_rows": 1221,
+  "mapped_stays": 3111,
+  "unmapped_stays": 2281,
+  "mapping_status_counts": {
+    "exact_city_state_or_alias": 2687,
+    "unmatched_city": 2181,
+    "unique_city_or_alias": 424,
+    "ambiguous_city_state_required": 100
+  },
+  "price_field_available": false,
+  "notes": [
+    "The supplied property sample has no reliable price-per-night field.",
+    "Unresolved city mappings are retained and are not silently fuzzy-matched.",
+    "The dataset crawl_date is 2016-09-01; records are historical sample data, not live inventory."
+  ]
+}
