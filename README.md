@@ -93,3 +93,22 @@ The fit score uses these maximum weights: location/proximity 30, request and pre
 ## Image selection in this update
 
 For each recommended property, Roamly uses a property-specific `image_url` only when one is present as an HTTP(S) URL. When no property photo is supplied, the frontend assigns a shuffled destination-contextual AI-generated illustrative image from a local pool. The fallback assignment avoids repeating the same image within one result list (up to ten results per city). These images are illustrative accommodation concepts, not photographs of the named property. If you add verified property images to `image_url`, those take priority.
+
+
+## Optional semantic ML upgrade (Roamly v5)
+
+The base application remains compatible with TF-IDF. To enable semantic matching, install the optional model dependency inside the project virtual environment:
+
+```powershell
+.\\.venv\\Scripts\\python.exe -m pip install -r requirements-ml.txt
+```
+
+On the first recommendation request, Roamly downloads `sentence-transformers/all-MiniLM-L6-v2` and caches it locally. The first run needs an internet connection and may take several minutes. Subsequent runs use the cached model. If the package or model is unavailable, recommendations automatically fall back to TF-IDF so the application remains usable.
+
+When the semantic model is available, preference similarity is blended as 75% sentence-embedding similarity and 25% TF-IDF similarity. The existing weighted fit factors remain: location 30, preferences 25, property type 15, rating 15, amenities 10 and review confidence 5. Factors without sufficient property data are excluded and the available weights are proportionally normalised.
+
+### Interactive fit-score explanation
+
+Hover over a property's fit score to reveal the information icon, then click it. The dialog shows each available factor's normalised score, original weight, points contributed to the final score, the data coverage, and which factor weight was unavailable. Keyboard focus also reveals the information icon; Escape is not currently required to close it, use the close button or backdrop.
+
+The fit score is a ranking aid, not a probability of satisfaction. Data coverage indicates how much of the original factor weight could be evaluated.

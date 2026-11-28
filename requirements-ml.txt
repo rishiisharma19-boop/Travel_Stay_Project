@@ -1,0 +1,2 @@
+# Optional semantic-search upgrade. Install after requirements.txt.
+sentence-transformers>=3.0

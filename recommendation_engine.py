@@ -33,9 +33,13 @@ def haversine_km(lat1, lon1, lat2, lon2):
 class TravelRecommendationEngine:
     def __init__(self, db_path=DB_PATH):
         self.db_path = Path(db_path)
+        self.semantic_model = None
+        self.semantic_error = None
         self.reload()
 
     def reload(self):
+        self.semantic_model = None
+        self.semantic_error = None
         with sqlite3.connect(self.db_path) as con:
             self.stays = pd.read_sql_query("SELECT * FROM stays", con)
             self.destinations = pd.read_sql_query("SELECT * FROM destinations", con)
@@ -84,50 +88,99 @@ class TravelRecommendationEngine:
             if not temple.empty:return temple.iloc[0].to_dict()
         return None
 
+    def _semantic_similarity(self, query, texts):
+        """Return semantic similarities in [0, 1], or None when optional ML is unavailable."""
+        if not query or not texts:
+            return None
+        try:
+            if self.semantic_model is None:
+                from sentence_transformers import SentenceTransformer
+                self.semantic_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+            q_emb = self.semantic_model.encode([query], normalize_embeddings=True, convert_to_numpy=True)
+            t_emb = self.semantic_model.encode(texts, normalize_embeddings=True, convert_to_numpy=True, show_progress_bar=False)
+            # Cosine values can be negative; map to [0, 1] for consistent score blending.
+            sims = (t_emb @ q_emb[0] + 1.0) / 2.0
+            return sims.clip(0.0, 1.0)
+        except Exception as exc:
+            # Keep Roamly fully usable offline or without the optional model installed.
+            self.semantic_error = str(exc)
+            return None
+
     def _score(self, df, query, preferences, property_type, target=None, radius_km=1):
-        if df.empty:return df
-        d=df.copy()
+        if df.empty:
+            return df
+        d = df.copy()
+        texts = d["_text"].fillna("").astype(str).tolist()
+        tfidf_sims = [0.0] * len(d)
         if self.vectorizer is not None and query.strip():
-            qv=self.vectorizer.transform([query]); sims=cosine_similarity(qv,self.vectorizer.transform(d["_text"].fillna("").astype(str))).ravel()
-        else:sims=[None]*len(d)
-        pref_amenities=[(p,AMENITY_COLUMNS[norm(p)]) for p in (preferences or []) if norm(p) in AMENITY_COLUMNS]
-        other_prefs=[p for p in (preferences or []) if norm(p) not in AMENITY_COLUMNS]
-        scores=[]; coverages=[]; breakdowns=[]
-        for pos,(_,row) in enumerate(d.iterrows()):
-            factors={}
-            # Proximity: only available when both property and target coordinates exist.
-            if target and all(pd.notna(target.get(k)) for k in ("latitude","longitude")) and pd.notna(row.get("latitude")) and pd.notna(row.get("longitude")):
-                dist=haversine_km(row.get("latitude"),row.get("longitude"),target.get("latitude"),target.get("longitude"))
+            qv = self.vectorizer.transform([query])
+            tfidf_sims = cosine_similarity(qv, self.vectorizer.transform(texts)).ravel()
+        semantic_sims = self._semantic_similarity(query, texts) if query.strip() else None
+        pref_amenities = [(p, AMENITY_COLUMNS[norm(p)]) for p in (preferences or []) if norm(p) in AMENITY_COLUMNS]
+        scores, coverages, breakdowns = [], [], []
+        labels = {
+            "location": "Location and proximity", "preference": "Semantic preference match",
+            "property_type": "Property type", "rating": "Guest rating",
+            "amenities": "Requested amenities", "review_confidence": "Review confidence"
+        }
+        for pos, (_, row) in enumerate(d.iterrows()):
+            factors = {}
+            if target and all(pd.notna(target.get(k)) for k in ("latitude", "longitude")) and pd.notna(row.get("latitude")) and pd.notna(row.get("longitude")):
+                dist = haversine_km(row.get("latitude"), row.get("longitude"), target.get("latitude"), target.get("longitude"))
                 if dist is not None:
-                    factors["location"]=(max(0.0,1.0-dist/max(float(radius_km or 1),0.5)),WEIGHTS["location"])
-            # Text relevance represents purpose, attraction and non-amenity preferences.
+                    radius = max(float(radius_km or 1), 0.5)
+                    factors["location"] = (max(0.0, 1.0 - dist / radius), WEIGHTS["location"])
             if query.strip() and str(row.get("_text") or "").strip():
-                factors["preference"]=(float(sims[pos] or 0),WEIGHTS["preference"])
+                tfidf_value = float(tfidf_sims[pos] or 0.0)
+                if semantic_sims is not None:
+                    semantic_value = float(semantic_sims[pos])
+                    pref_value = 0.25 * tfidf_value + 0.75 * semantic_value
+                else:
+                    pref_value = tfidf_value
+                factors["preference"] = (max(0.0, min(1.0, pref_value)), WEIGHTS["preference"])
             if property_type and pd.notna(row.get("property_type")) and str(row.get("property_type")).strip():
-                wanted=norm(property_type); actual=norm(row.get("property_type"))
-                factors["property_type"]=(1.0 if wanted in actual or actual in wanted else 0.0,WEIGHTS["property_type"])
-            rating=pd.to_numeric(pd.Series([row.get("review_rating")]),errors="coerce").iloc[0]
-            if pd.notna(rating): factors["rating"]=(max(0,min(10,float(rating)))/10,WEIGHTS["rating"])
-            # Evaluate only amenity fields actually populated for this property.
-            known=[]
-            for pref,col in pref_amenities:
-                value=row.get(col)
-                if pd.notna(value): known.append(1.0 if str(value).strip().lower() in {"1","1.0","true","yes"} else 0.0)
-            if known:factors["amenities"]=(sum(known)/len(known),WEIGHTS["amenities"])
-            reviews=pd.to_numeric(pd.Series([row.get("review_count")]),errors="coerce").iloc[0]
+                wanted, actual = norm(property_type), norm(row.get("property_type"))
+                factors["property_type"] = (1.0 if wanted in actual or actual in wanted else 0.0, WEIGHTS["property_type"])
+            rating = pd.to_numeric(pd.Series([row.get("review_rating")]), errors="coerce").iloc[0]
+            if pd.notna(rating):
+                # Most source ratings are on a 0-10 scale; preserve that scale.
+                rating_value = max(0.0, min(10.0, float(rating))) / 10.0
+                factors["rating"] = (rating_value, WEIGHTS["rating"])
+            known = []
+            for _, col in pref_amenities:
+                value = row.get(col)
+                if pd.notna(value):
+                    known.append(1.0 if str(value).strip().lower() in {"1", "1.0", "true", "yes"} else 0.0)
+            if known:
+                factors["amenities"] = (sum(known) / len(known), WEIGHTS["amenities"])
+            reviews = pd.to_numeric(pd.Series([row.get("review_count")]), errors="coerce").iloc[0]
             if pd.notna(reviews):
-                # Log curve rewards a meaningful review base without letting volume dominate.
-                confidence=min(1.0,math.log1p(max(0,float(reviews)))/math.log1p(500))
-                factors["review_confidence"]=(confidence,WEIGHTS["review_confidence"])
-            denom=sum(w for _,w in factors.values())
-            score=sum(v*w for v,w in factors.values())/denom if denom else 0.0
-            coverage=denom/100.0
-            scores.append(score);coverages.append(coverage)
-            breakdowns.append({k:round(v,3) for k,(v,_) in factors.items()})
-        d["recommendation_score"]=scores
-        d["score_coverage"]=coverages
-        d["score_breakdown"]=breakdowns
-        return d.sort_values("recommendation_score",ascending=False)
+                confidence = min(1.0, math.log1p(max(0.0, float(reviews))) / math.log1p(500))
+                factors["review_confidence"] = (confidence, WEIGHTS["review_confidence"])
+
+            available_weight = sum(weight for _, weight in factors.values())
+            score = sum(value * weight for value, weight in factors.values()) / available_weight if available_weight else 0.0
+            breakdown = {}
+            for key, (value, weight) in factors.items():
+                breakdown[key] = {
+                    "label": labels[key], "value": round(value, 4), "weight": weight,
+                    "contribution": round((value * weight / available_weight) * 100, 2) if available_weight else 0,
+                    "raw_points": round(value * weight, 2)
+                }
+            scores.append(score)
+            coverages.append(available_weight / 100.0)
+            breakdowns.append({
+                "factors": breakdown,
+                "available_weight": available_weight,
+                "missing_weight": 100 - available_weight,
+                "coverage": round(available_weight / 100.0, 4),
+                "method": "Sentence Transformer + TF-IDF" if semantic_sims is not None else "TF-IDF fallback",
+                "formula": "Final score = sum(factor score × factor weight) / sum(available factor weights)"
+            })
+        d["recommendation_score"] = scores
+        d["score_coverage"] = coverages
+        d["score_breakdown"] = breakdowns
+        return d.sort_values("recommendation_score", ascending=False)
 
     def recommend_stays(self, city, property_type=None, preferences=None, purpose=None, attraction=None, radius_km=1, limit=10):
         d=self.stays[self.stays["city"].map(norm)==norm(city)].copy()

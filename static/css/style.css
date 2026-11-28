@@ -14,3 +14,30 @@
 .image-source-tag{position:absolute;right:12px;bottom:12px;padding:5px 9px;border-radius:999px;background:rgba(17,24,39,.72);color:#fff;font-size:10px;font-weight:700;letter-spacing:.02em;backdrop-filter:blur(6px)}
 .card-visual{position:relative;overflow:hidden}
 .score-coverage{display:block;margin-top:4px;font-size:10px;font-weight:500;opacity:.72}
+
+
+/* Interactive explanation for the recommendation fit score */
+.score-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:6px;min-width:0}
+.score-info{display:inline-flex;align-items:center;justify-content:center;width:19px;height:19px;border:1px solid #8da6a2;border-radius:50%;background:#fff;color:#176b63;font-size:12px;font-weight:800;line-height:1;cursor:pointer;opacity:0;transform:scale(.88);transition:opacity .16s ease,transform .16s ease}
+.score-wrap:hover .score-info,.score-info:focus-visible{opacity:1;transform:scale(1)}
+.score-info:focus-visible{outline:3px solid #b7e4dc;outline-offset:2px}
+.score-coverage{display:block;flex-basis:100%;font-size:11px;color:#667085;font-weight:500}
+.score-modal{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:20px}
+.score-modal.hidden{display:none}
+.score-modal-backdrop{position:absolute;inset:0;background:rgba(13,27,42,.56);backdrop-filter:blur(3px)}
+.score-modal-panel{position:relative;width:min(520px,100%);max-height:min(82vh,760px);overflow:auto;background:#fff;border:1px solid #e5eaf1;border-radius:20px;padding:25px;box-shadow:0 24px 80px rgba(15,23,42,.25)}
+.score-modal-close{position:absolute;right:15px;top:12px;width:34px;height:34px;border:0;border-radius:50%;background:#f1f5f9;color:#344054;font-size:24px;cursor:pointer}
+.score-modal-panel h3{font-size:21px;margin:8px 40px 12px 0;color:#172b3a}
+.score-modal-intro{font-size:13px;line-height:1.55;color:#667085;margin:0 0 16px}
+.score-modal-total{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-radius:13px;background:#eef8f5;color:#145b52;margin-bottom:15px}
+.score-modal-total strong{font-size:28px}
+.score-detail-list{display:grid;gap:0}
+.score-detail-row{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:12px 2px;border-bottom:1px solid #edf0f4}
+.score-detail-row strong{display:block;font-size:13px;color:#243746}
+.score-detail-row small{display:block;color:#667085;font-size:11px;margin-top:3px}
+.score-detail-row>b{white-space:nowrap;color:#176b63;font-size:13px}
+.score-coverage-box{margin-top:16px;padding:13px 15px;border:1px solid #dcebe7;background:#f7fbfa;border-radius:12px}
+.score-coverage-box strong{font-size:13px;color:#145b52}
+.score-coverage-box p,.score-method{font-size:12px;line-height:1.55;color:#667085;margin:5px 0 0}
+.score-method{margin-top:13px}
+@media(max-width:520px){.score-modal{padding:10px}.score-modal-panel{padding:20px;border-radius:16px}}
