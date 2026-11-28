@@ -1,0 +1,79 @@
+# Roamly upgrade pack (Flask + SQLite)
+
+This is a drop-in upgrade for the Flask version of Roamly. It preserves the existing `travel_stay.db` and the current `destinations` / `stays` tables. New tables (`places`, `stay_place_distances`) are created automatically.
+
+## Files
+
+- `app.py`: Flask routes for the UI, recommendations, adaptive questions, POIs and city OSM import.
+- `recommendation_engine.py`: TF-IDF + rating/review/amenity ranking, distance-aware ranking and property deduplication.
+- `services/osm_service.py`: cached city-centred Overpass importer, one-time city geocoding fallback, OSM place and accommodation ingestion.
+- `scripts/import_stays.py`: safe CSV importer for additional accommodation rows.
+- `templates/index.html`, `static/js/app.js`, `static/css/style.css`: adaptive Roamly frontend with Leaflet map.
+
+## Integration into your existing Windows project
+
+1. Stop Flask (`Ctrl+C`). Make a backup first:
+
+   ```powershell
+   Copy-Item .\travel_stay.db .\travel_stay_backup_before_roamly_upgrade.db
+   Copy-Item .\app.py .\app_before_roamly_upgrade.py
+   ```
+
+2. Extract this ZIP into your existing project root `C:\Users\pawan\Desktop\travel_stay_assistant`, choosing **overwrite/merge**. It replaces `app.py`, adds `recommendation_engine.py` and `services`, and replaces `templates/index.html`, `static/js/app.js`, and `static/css/style.css`. Keep your existing `travel_stay.db`, `data/`, `scripts/preprocess.py`, `.venv`, and raw CSVs.
+
+3. Install the added dependency in your existing venv:
+
+   ```powershell
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   ```
+
+4. Start Flask:
+
+   ```powershell
+   .\.venv\Scripts\python.exe app.py
+   ```
+
+5. Open `http://127.0.0.1:5000`. Check `http://127.0.0.1:5000/api/health`.
+
+## OSM city import
+
+Choose a destination in Roamly and press **Refresh OpenStreetMap data for this city**. The server fetches a compact radius of mapped POIs and accommodation tags around the city centre and caches the response in `data/osm_cache/`. Ujjain's Mahakaleshwar proximity is the default for temple-oriented searches; select another attraction or distance when needed. If no property lies inside the chosen radius, Roamly returns the nearest geocoded alternatives rather than silently returning nothing.
+
+For cities not in the built-in coordinate list, the importer makes one user-triggered Nominatim city lookup and caches it. It is not used for autocomplete. Do not automate repeated lookups or use the public Nominatim service as a general high-volume geocoder. Public OSM services are shared; use a suitable provider or self-hosted service for sustained production traffic. Display `© OpenStreetMap contributors` (already included in the map UI) and review ODbL obligations before redistributing a derived database.
+
+OSM coverage varies. The imported coordinates and place tags are community-maintained and may be incomplete. Distances are straight-line (Haversine), not road/walking distance. The map tiles are fetched from the standard OSM tile service and must not be bulk-downloaded or prefetched.
+
+## Add more stays from CSV
+
+Put a file such as `data/raw/new_stays.csv` in the project. Minimum columns: `property_name,city`. Recommended columns:
+
+`property_name,city,state,country,property_type,hotel_stars,review_rating,review_count,hotel_description,hotel_facilities,latitude,longitude,address,pageurl`
+
+Then run:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/import_stays.py data/raw/new_stays.csv
+```
+
+The importer maps city names only to existing canonical destination names (normalized exact match). Unmatched cities are still imported with `destination_id=NULL` and `mapping_status=unmatched_city`, so they won't appear in destination-linked recommendations until you map them. It skips normalized duplicate property-name + city combinations. Restart Flask after importing so the in-memory TF-IDF model reloads.
+
+Do not append rows blindly to the cleaned CSV or rerun `preprocess.py` just to add hotels: preprocessing rebuilds the database from the original source dataset. Use this importer for incremental additions.
+
+## Important data limitations
+
+- The original Booking.com sample is historical (2016), not current inventory.
+- The source has no reliable nightly price column. Roamly does not calculate or promise prices.
+- No live room availability or booking confirmation is provided.
+- OSM hotel records are supplementary, not a complete accommodation catalogue; they may lack ratings, facilities or booking links.
+- `property_type` in the original dataset can be source-coded, so filtering is a soft ranking preference rather than a strict exclusion.
+
+
+## Destination expansion (Goa and Ooty)
+On startup, Roamly adds Goa and Ooty to the destination autocomplete without deleting existing records. Ooty already had historical sample properties with a missing destination mapping; startup now repairs that mapping. Use the OpenStreetMap import button after selecting Goa or Ooty to add mapped accommodation and nearby attraction records. Goa import searches around both Panaji (North Goa) and Margao (South Goa) with a 30 km radius per centre; it is still not a complete verified statewide inventory. Ooty import uses a 12 km radius. OpenStreetMap coverage varies and is not a verified hotel catalogue.
+
+## Booking links
+For historical sample properties, Roamly opens a Booking.com search prefilled with the exact property name and city rather than trusting old 2016 session/availability URLs. OSM-only properties open their OpenStreetMap object page unless a specific booking URL is available in OSM tags.
+
+
+## Context-aware preferences
+The Ujjain form hides mountain-view preferences and defaults to temple-focused questions. Goa offers beach-area choices, and Ooty offers hill-station/nature choices. The backend also ignores mountain-view and beach preferences when they are incompatible with the selected city, even if an older browser submits them.

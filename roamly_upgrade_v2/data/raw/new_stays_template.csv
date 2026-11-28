@@ -1,0 +1,2 @@
+property_name,city,state,country,property_type,hotel_stars,review_rating,review_count,hotel_description,hotel_facilities,latitude,longitude,address,pageurl
+Sample Stay,Ujjain,Madhya Pradesh,India,hotel,3,8.1,120,Short property description,WiFi|Parking|Restaurant,23.1800,75.7800,Full street address,https://example.com/property
